@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceTypes", "Reference
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueTypes", "ValueTypes\ValueTypes.csproj", "{6A730510-8890-4ED0-AC5A-5C13DA50BCF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arithmetic", "Arithmetic\Arithmetic.csproj", "{C0E24865-CBBC-4734-BD0B-4D99266A8AAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparison", "Comparison\Comparison.csproj", "{6709E74B-8F7C-4EA8-93A1-EF5F60EB1B17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{6A730510-8890-4ED0-AC5A-5C13DA50BCF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A730510-8890-4ED0-AC5A-5C13DA50BCF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A730510-8890-4ED0-AC5A-5C13DA50BCF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0E24865-CBBC-4734-BD0B-4D99266A8AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0E24865-CBBC-4734-BD0B-4D99266A8AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0E24865-CBBC-4734-BD0B-4D99266A8AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0E24865-CBBC-4734-BD0B-4D99266A8AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6709E74B-8F7C-4EA8-93A1-EF5F60EB1B17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6709E74B-8F7C-4EA8-93A1-EF5F60EB1B17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6709E74B-8F7C-4EA8-93A1-EF5F60EB1B17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6709E74B-8F7C-4EA8-93A1-EF5F60EB1B17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
