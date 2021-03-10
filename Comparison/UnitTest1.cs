@@ -70,12 +70,12 @@ namespace Comparison
 
             bool andValue = greaterThan && orValue;
 
-            bool tAndt = trueValue && trueValue;
+            bool tAndt = trueValue && trueValue; // only case that evaluates as true
             bool tAndf = trueValue && falseValue;
             bool fAndt = falseValue && trueValue;
             bool fAndf = falseValue && falseValue;
 
-            Console.WriteLine($"True or True {tAndt}");
+            Console.WriteLine($"True or True {tAndt}"); 
             Console.WriteLine($"True or False {tAndf}");
             Console.WriteLine($"False or True {fAndt}");
             Console.WriteLine($"False or False {fAndf}");
